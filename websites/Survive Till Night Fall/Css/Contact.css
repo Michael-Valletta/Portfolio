@@ -1,0 +1,102 @@
+#ctstxt{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    margin-bottom: 50%;
+    z-index: 1;
+    text-transform: uppercase;
+    filter: drop-shadow(10px 10px 15px black);
+}
+
+#toggleMenu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    margin-bottom: 50%;
+    z-index: 1;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 25%;
+    padding: 1%;
+    filter: drop-shadow(10px 10px 15px black);
+}
+
+.hidden{
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+
+#textbox, #textboxEmail, #textboxContactNum, #textboxMessage{
+    border: 2px solid red;
+    width: 100%;
+    border-radius: 15px;
+    padding: 1%;
+    
+}
+
+label{
+    color: white;
+}
+
+#sendbtn{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 25%;
+    padding: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    #ctstxt{
+        top:90%;
+        margin-bottom: 0;
+        width: 80%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #toggleMenu{
+        top:10%;
+        margin-bottom: 0;
+        width: 80%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #contactForm{
+        width: 100%;
+    }
+
+    input[type="text"],
+    textarea{
+        width: 100%;
+    }
+
+    #sendbtn{
+        width: 80%;
+    }
+
+    #toggleMenu{
+        margin-top: 80%;
+    }
+
+    img[src="Assets/contactbg.jpg"]{
+        width:100%;
+        height: 800px;
+        position: relative;
+    }
+
+    footer{
+        position: relative;
+        text-align: center;
+    }
+    
+}
