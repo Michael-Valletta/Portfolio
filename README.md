@@ -9,7 +9,7 @@ Development: VS Code, Visual Studio, XAMPP
 Programming Languages: Java, Python, HTML, CSS, JavaScript, C#, C++
 
 ----------------------
-🕹 Currently Building
+🕹 Currently Building:
 I’m collaborating on a 3D Survival/Horror game in Unreal Engine 5. You can find the progress and documentation in my repositories.
 
 
