@@ -6,11 +6,11 @@ I am an IT student at MCAST, currently pursuing a degree in Digital Games Develo
 
 Engines: Unreal Engine 5, Unity, Godot, Roblox
 
-Libraries/Frameworks: Raylib
+Libraries/Frameworks: Raylib, Ionic
 
 Development: VS Code, Visual Studio, XAMPP
 
-Programming Languages: Java, Python, HTML, CSS, JavaScript, C#, C++
+Programming Languages: Java, Python, HTML, CSS, JavaScript, C#, C++, Lua
 
 ----------------------
 🕹 Currently Building:
