@@ -1,0 +1,254 @@
+header{
+    background-color: #302c2c;
+    padding: 1%;
+}
+
+main{
+    display: flex;
+}
+
+body{
+    background-color: black;
+}
+
+#fogeffectbg{
+    position: relative;
+    overflow: hidden;
+}
+
+.fog{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255,255, 0.2);
+    animation: fogMove linear infinite alternate;
+}
+
+@keyframes fogbg{
+    0%{
+        transform: translateX(-10%);
+    }
+    100%{
+        transform: translateX(10%);
+    }
+}
+
+
+nav ul li a{
+    color: white;
+    padding: 15px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+}
+
+nav ul li a:hover{
+    background-color: red;
+    color: white;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+    text-align: center;
+    clear: both;
+    width: 100%;
+    font-size: 20px;
+}
+
+nav ul li{
+    display:inline-block
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+}
+
+
+#stntitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    margin-bottom: 50%;
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 0 0 10px #ff5733, 0 0 20px #ff5733, 0 0 40px #ff5733, 0 0 80px #ff5733;
+    animation:flicker 1s infinite alternate;
+}
+
+#headertlt{
+    animation: flicker 1s infinite alternate;
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 0 0 10px #ff5733, 0 0 20px #ff5733, 0 0 40px #ff5733, 0 0 80px #ff5733;
+    text-align: center;
+    margin-top: -5%;
+}
+
+#homepgtitle2{
+    position:absolute;
+    text-align: center;
+    top: 90%;
+    left: 750px;
+    transform: translate(-50%,50%);
+    margin-bottom: 50%;
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 0 0 10px #ff5733, 0 0 20px #ff5733, 0 0 40px #ff5733, 0 0 80px #ff5733;
+    animation:flicker 1s infinite alternate;
+    width: 100%;
+}
+
+@keyframes flicker{
+    0%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+#homepgtxt{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 1;
+    left: 15%;
+    font-style:inherit;
+    font-size: 20px;
+    color: black;
+    text-decoration: white;
+    font-weight: bold;
+    right: 15%;
+    text-transform: uppercase;
+    text-align: center;
+    filter: drop-shadow(5px 5px 10px black);
+
+}
+
+
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    top: 65%;
+    left: 750px;
+    transform: translate(-50%,50%);
+    margin-bottom: 50%;
+    text-transform: uppercase;
+}
+
+#i1{
+   padding:8%;
+   width: 66.7%;
+}
+
+#i2{
+    padding: 8%;
+    width: 66.7%;
+}
+
+#i3{
+    padding: 8%;
+    width: 66.7%;
+}
+
+
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in-active{
+    opacity: 1;
+}
+
+
+
+footer{
+    background-color:#302c2c;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+    height: 7%;
+    font-size: 15px;
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+   nav ul{
+    flex-direction: column;
+    align-items: center;
+   }
+
+   #stntitle{
+    width: 100%;
+   }
+
+   nav ul li{
+    margin: 10px 0;
+   }
+
+   #homepgtitle2{
+    width: 100%;
+    margin-top: 60%;
+    margin-left: -135%;
+   }
+
+   #homepgtxt{
+    width: 100%;
+    margin-top: 35%;
+    margin-left: -15%;
+   }
+
+   .imgcontainer{
+    margin-top: 90%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: -135%;
+    padding: 0%;
+   }
+
+   img[src="Assets/homepgIMG.png"]{
+    width:100%;
+    height: 1800px;
+    position: relative;
+}
+
+
+   header, nav, main, footer{
+    text-align: center;
+   }
+    
+}
+
+
+
+
+
+
+
+
+
+
