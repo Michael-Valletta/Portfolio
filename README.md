@@ -10,7 +10,7 @@ Libraries/Frameworks: Raylib, Ionic
 
 Development: VS Code, Visual Studio, XAMPP
 
-Programming Languages: Java, Python, HTML, CSS, JavaScript, C#, C++, Lua
+Programming Languages: Java, Python, HTML, CSS, JavaScript, C#, C++, Lua(Luau)
 
 Other Programs: Gimp, Photoshop, Capcut, Blender, Source Film Maker
 
